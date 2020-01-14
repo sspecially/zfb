@@ -29,7 +29,7 @@ module.exports = {
   plugins: {
     autoprefixer: {},
     "postcss-px2rem-exclude": {
-      remUnit: 75,
+      remUnit: 37.5,
       exclude: /node_modules|folder_name/i
     }
   }
@@ -43,7 +43,7 @@ package.json
   "plugins": {
     "autoprefixer": {},
     "postcss-px2rem-exclude":{
-        "remUnit": 75,
+        "remUnit": 37.5,
         "exclude":"/node_modules|floder_name/i"
     }
   }
